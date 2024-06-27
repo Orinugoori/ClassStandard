@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="title_text">
         <item name="fontFamily">@font/product_sans_black</item>
         <item name="android:textStyle">bold</item>
@@ -18,6 +19,30 @@
         <item name="color">@color/light_grey</item>
         <item name="android:textSize">15sp</item>
     </style>
-    
-    
+
+    <style name="CustomChipStyle" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="chipBackgroundColor">@color/chip_background</item>
+        <item name="android:textColor">@color/selector_chip_text</item>
+        <item name="chipMinHeight">40dp</item>
+        <item name="chipStartPadding">10dp</item>
+        <item name="chipEndPadding">10dp</item>
+        <item name="chipIconVisible">false</item>
+        <item name="closeIconVisible">false</item>
+        <item name="checkedIconVisible">false</item>
+    </style>
+
+
+
+
+
+    <style name="profile_button" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/button_shape_profile</item>
+        <item name="backgroundTint">@null</item>
+        <item name="fontFamily">@font/gotham_bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+
 </resources>
