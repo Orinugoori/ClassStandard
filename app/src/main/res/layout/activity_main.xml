@@ -98,7 +98,7 @@
                 android:id="@+id/layout_scroll_whole"
                 android:layout_marginTop="16dp"
                 android:layout_width="match_parent"
-                android:layout_height="2500dp">
+                android:layout_height="2000dp">
 
 
 
@@ -126,9 +126,10 @@
 
                     <ImageView
                         android:id="@+id/iv_playlist_cover"
-                        android:layout_width="70dp"
+                        android:layout_width="75dp"
                         android:layout_height="0dp"
-                        android:background="@color/white"
+                        android:src="@drawable/iv_cover_playlist_rihanna"
+                        android:scaleType="centerCrop"
                         app:layout_constraintHeight_percent="0.23"
                         app:layout_constraintStart_toStartOf="@+id/iv_playlist_frame"
                         app:layout_constraintTop_toTopOf="@id/iv_playlist_frame"/>
@@ -139,7 +140,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:fontFamily="@font/product_sans_black"
-                        android:text="내배캠 추천 노래"
+                        android:text="This Is\nRihanna"
                         android:textColor="@color/white"
                         app:layout_constraintBottom_toBottomOf="@id/iv_playlist_frame"
                         app:layout_constraintStart_toEndOf="@+id/iv_playlist_cover"
@@ -156,9 +157,9 @@
 
                     <ImageView
                         android:id="@+id/iv_playlist_cover2"
-                        android:layout_width="70dp"
+                        android:layout_width="75dp"
                         android:layout_height="0dp"
-                        android:background="@color/white"
+                        android:src="@drawable/iv_cover_playlist_equal"
                         app:layout_constraintHeight_percent="0.23"
                         app:layout_constraintStart_toStartOf="@id/iv_playlist_frame2"
                         app:layout_constraintTop_toTopOf="@id/iv_playlist_frame"/>
@@ -187,9 +188,9 @@
 
                     <ImageView
                         android:id="@+id/iv_playlist_cover3"
-                        android:layout_width="70dp"
+                        android:layout_width="75dp"
                         android:layout_height="0dp"
-                        android:background="@color/white"
+                        android:src="@drawable/iv_cover_playlist_brunomars"
                         app:layout_constraintHeight_percent="0.23"
                         app:layout_constraintStart_toStartOf="@+id/iv_playlist_frame3"
                         app:layout_constraintTop_toTopOf="@id/iv_playlist_frame3"/>
@@ -200,7 +201,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:fontFamily="@font/product_sans_black"
-                        android:text="내배캠 추천 노래"
+                        android:text="Bruno Mars"
                         android:textColor="@color/white"
                         app:layout_constraintBottom_toBottomOf="@id/iv_playlist_frame3"
                         app:layout_constraintStart_toEndOf="@+id/iv_playlist_cover3"
@@ -222,9 +223,9 @@
 
                     <ImageView
                         android:id="@+id/iv_playlist_cover4"
-                        android:layout_width="70dp"
+                        android:layout_width="75dp"
                         android:layout_height="0dp"
-                        android:background="@color/white"
+                        android:src="@drawable/iv_cover_playlist_sunwoojunga"
                         app:layout_constraintHeight_percent="0.23"
                         app:layout_constraintStart_toStartOf="@id/iv_playlist_frame4"
                         app:layout_constraintTop_toTopOf="@id/iv_playlist_frame3">
@@ -237,7 +238,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:fontFamily="@font/product_sans_black"
-                        android:text="EQUAL\nK-Pop"
+                        android:text="It's Okay,\nDear"
                         android:textColor="@color/white"
                         app:layout_constraintBottom_toBottomOf="@id/iv_playlist_frame4"
                         app:layout_constraintStart_toEndOf="@+id/iv_playlist_cover4"
@@ -260,9 +261,9 @@
 
                     <ImageView
                         android:id="@+id/iv_playlist_cover5"
-                        android:layout_width="70dp"
+                        android:layout_width="75dp"
                         android:layout_height="0dp"
-                        android:background="@color/white"
+                        android:src="@drawable/iv_cover_playlist_hyang"
                         app:layout_constraintHeight_percent="0.23"
                         app:layout_constraintStart_toStartOf="@+id/iv_playlist_frame5"
                         app:layout_constraintTop_toTopOf="@id/iv_playlist_frame5">
@@ -275,7 +276,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:fontFamily="@font/product_sans_black"
-                        android:text="내배캠 추천 노래"
+                        android:text="Hyang"
                         android:textColor="@color/white"
                         app:layout_constraintBottom_toBottomOf="@id/iv_playlist_frame5"
                         app:layout_constraintStart_toEndOf="@+id/iv_playlist_cover5"
@@ -297,9 +298,9 @@
 
                     <ImageView
                         android:id="@+id/iv_playlist_cover6"
-                        android:layout_width="70dp"
+                        android:layout_width="75dp"
                         android:layout_height="0dp"
-                        android:background="@color/white"
+                        android:src="@drawable/iv_cover_playlist_hemeets"
                         app:layout_constraintHeight_percent="0.23"
                         app:layout_constraintStart_toStartOf="@id/iv_playlist_frame6"
                         app:layout_constraintTop_toTopOf="@id/iv_playlist_frame5">
@@ -312,7 +313,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:fontFamily="@font/product_sans_black"
-                        android:text="EQUAL\nK-Pop"
+                        android:text="내배캠\n추천 노래"
                         android:textColor="@color/white"
                         app:layout_constraintBottom_toBottomOf="@id/iv_playlist_frame6"
                         app:layout_constraintStart_toEndOf="@+id/iv_playlist_cover6"
@@ -335,9 +336,9 @@
 
                     <ImageView
                         android:id="@+id/iv_playlist_cover7"
-                        android:layout_width="70dp"
+                        android:layout_width="75dp"
                         android:layout_height="0dp"
-                        android:background="@color/white"
+                        android:src="@drawable/iv_cover_playlist_rollthemoon"
                         app:layout_constraintHeight_percent="0.23"
                         app:layout_constraintStart_toStartOf="@+id/iv_playlist_frame7"
                         app:layout_constraintTop_toTopOf="@id/iv_playlist_frame7">
@@ -350,7 +351,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:fontFamily="@font/product_sans_black"
-                        android:text="내배캠 추천 노래"
+                        android:text="앨범아트\n작업한 곡들"
                         android:textColor="@color/white"
                         app:layout_constraintBottom_toBottomOf="@id/iv_playlist_frame7"
                         app:layout_constraintStart_toEndOf="@+id/iv_playlist_cover7"
@@ -372,9 +373,9 @@
 
                     <ImageView
                         android:id="@+id/iv_playlist_cover8"
-                        android:layout_width="70dp"
+                        android:layout_width="75dp"
                         android:layout_height="0dp"
-                        android:background="@color/white"
+                        android:src="@drawable/iv_playlist_cover_ewf"
                         app:layout_constraintHeight_percent="0.23"
                         app:layout_constraintStart_toStartOf="@id/iv_playlist_frame8"
                         app:layout_constraintTop_toTopOf="@id/iv_playlist_frame7">
@@ -387,7 +388,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:fontFamily="@font/product_sans_black"
-                        android:text="EQUAL\nK-Pop"
+                        android:text="This Is\nEarth Wind..."
                         android:textColor="@color/white"
                         app:layout_constraintBottom_toBottomOf="@id/iv_playlist_frame8"
                         app:layout_constraintStart_toEndOf="@+id/iv_playlist_cover8"
@@ -443,7 +444,7 @@
                     android:id="@+id/iv_content_for_me_cover"
                     android:layout_width="170dp"
                     android:layout_height="0dp"
-                    android:background="@color/white"
+                    android:src="@drawable/iv_cover_recommend_hyang"
                     app:layout_constraintHeight_max="170dp"
                     app:layout_constraintHeight_percent="0.2"
                     app:layout_constraintStart_toStartOf="@id/iv_content_for_me"
@@ -472,7 +473,7 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
                     android:fontFamily="@font/gotham_bold"
-                    android:text="Foley - Low and High"
+                    android:text="Hyang - Summer"
                     android:textColor="@color/white"
                     app:layout_constraintStart_toEndOf="@+id/iv_content_for_me_cover"
                     app:layout_constraintTop_toBottomOf="@id/tv_content_for_me_category_album">
@@ -486,7 +487,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
-                    android:text="Spotify 팝 에디터가\n추천하는 트랙"
+                    android:text="Spotify 에디터가\n추천하는 트랙"
                     app:layout_constraintStart_toEndOf="@+id/iv_content_for_me_cover"
                     app:layout_constraintTop_toBottomOf="@id/tv_content_for_me_name_album">
 
@@ -560,7 +561,7 @@
                                 android:layout_height="160dp"
                                 android:layout_marginStart="16dp"
                                 android:background="@color/white"
-                                android:src="@drawable/iv_frame_radio">
+                                android:src="@drawable/iv_recommend_station_hyang">
 
                             </ImageView>
 
@@ -571,7 +572,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
                                 android:layout_marginTop="16dp"
-                                android:text="NMIXX,iZONE,\n프로미스나인,조유리,Bi...">
+                                android:text="Hyang,Wave To Earth,\nThe 1975 등">
 
                             </TextView>
 
@@ -589,7 +590,7 @@
                                 android:layout_height="160dp"
                                 android:layout_marginStart="16dp"
                                 android:background="@color/white"
-                                android:src="@drawable/iv_frame_radio">
+                                android:src="@drawable/iv_recommend_station_aespa">
 
                             </ImageView>
 
@@ -600,7 +601,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
                                 android:layout_marginTop="16dp"
-                                android:text="NMIXX,iZONE,\n프로미스나인,조유리,Bi...">
+                                android:text="Aespa, f(x), Red Velvet\n등">
 
                             </TextView>
 
@@ -618,7 +619,7 @@
                                 android:layout_height="160dp"
                                 android:layout_marginStart="16dp"
                                 android:background="@color/white"
-                                android:src="@drawable/iv_frame_radio">
+                                android:src="@drawable/recommend_station_zion">
 
                             </ImageView>
 
@@ -629,11 +630,13 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
                                 android:layout_marginTop="16dp"
-                                android:text="NMIXX,iZONE,\n프로미스나인,조유리,Bi...">
+                                android:text="Zion T, DEAN, Loco,Sam\nKim, ZICO 등">
 
                             </TextView>
 
                         </LinearLayout>
+
+
 
 
                     </LinearLayout>
@@ -675,15 +678,41 @@
                             android:layout_height="wrap_content"
                             android:orientation="vertical">
 
-                            <ImageView
-                                android:id="@+id/iv_recommend_mix_for_user_cover"
+                            <FrameLayout
+                                android:id="@+id/layout_recommend_mix_for_user_frame1"
                                 android:layout_width="160dp"
                                 android:layout_height="160dp"
-                                android:layout_marginStart="16dp"
-                                android:background="@color/white"
-                                android:src="@drawable/iv_frame_dailymix_green">
+                                android:layout_marginStart="16dp">
 
-                            </ImageView>
+                                <ImageView
+                                    android:id="@+id/iv_recommend_mix_for_user_cover_photo"
+                                    android:layout_width="160dp"
+                                    android:layout_height="160dp"
+                                    android:src="@drawable/iv_photo_artist_rihanna"/>
+
+                                <ImageView
+                                    android:id="@+id/iv_recommend_mix_for_user_cover"
+                                    android:layout_width="160dp"
+                                    android:layout_height="160dp"
+                                    android:src="@drawable/iv_frame_dailymix_green"/>
+
+                                <ImageView
+                                    android:id="@+id/iv_logo_icon_black"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:src="@drawable/iv_logo_black"/>
+
+                                <TextView
+                                    android:id="@+id/tv_mix_name"
+                                    style="@style/photo_text"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="left|bottom"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:text="데일리 믹스 1"/>
+
+                            </FrameLayout>
 
                             <TextView
                                 android:id="@+id/tv_recommend_mix_for_user_artist_name"
@@ -692,9 +721,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
                                 android:layout_marginTop="16dp"
-                                android:text="NMIXX,iZONE,\n프로미스나인,조유리,Bi...">
-
-                            </TextView>
+                                android:text="Rihanna, Bruno Mars,\nAaliyah 등"/>
 
                         </LinearLayout>
 
@@ -704,15 +731,41 @@
                             android:layout_height="wrap_content"
                             android:orientation="vertical">
 
-                            <ImageView
-                                android:id="@+id/iv_recommend_mix_for_user_cover2"
+                            <FrameLayout
+                                android:id="@+id/layout_recommend_mix_for_user_frame2"
                                 android:layout_width="160dp"
                                 android:layout_height="160dp"
-                                android:layout_marginStart="16dp"
-                                android:background="@color/white"
-                                android:src="@drawable/iv_frame_dailymix_pink">
+                                android:layout_marginStart="16dp">
 
-                            </ImageView>
+                                <ImageView
+                                    android:id="@+id/iv_recommend_mix_for_user_cover_photo2"
+                                    android:layout_width="160dp"
+                                    android:layout_height="160dp"
+                                    android:src="@drawable/iv_photo_artist_tom"/>
+
+                                <ImageView
+                                    android:id="@+id/iv_recommend_mix_for_user_cover2"
+                                    android:layout_width="160dp"
+                                    android:layout_height="160dp"
+                                    android:src="@drawable/iv_frame_dailymix_pink"/>
+
+                                <ImageView
+                                    android:id="@+id/iv_logo_icon_black2"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:src="@drawable/iv_logo_black"/>
+
+                                <TextView
+                                    android:id="@+id/tv_mix_name2"
+                                    style="@style/photo_text"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="left|bottom"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:text="데일리 믹스 2"/>
+
+                            </FrameLayout>
 
                             <TextView
                                 android:id="@+id/tv_recommend_mix_for_user_artist_name2"
@@ -721,9 +774,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
                                 android:layout_marginTop="16dp"
-                                android:text="NMIXX,iZONE,\n프로미스나인,조유리,Bi...">
-
-                            </TextView>
+                                android:text="Tom Misch, Earth Wind\n and Fire, Emily King 등"/>
 
                         </LinearLayout>
 
@@ -733,29 +784,52 @@
                             android:layout_height="wrap_content"
                             android:orientation="vertical">
 
-                            <ImageView
-                                android:id="@+id/iv_recommend_mix_for_user_cover_cover3"
+                            <FrameLayout
+                                android:id="@+id/layout_recommend_mix_for_user_frame3"
                                 android:layout_width="160dp"
                                 android:layout_height="160dp"
-                                android:layout_marginStart="16dp"
-                                android:background="@color/white"
-                                android:src="@drawable/iv_frame_dailymix_green">
+                                android:layout_marginStart="16dp">
 
-                            </ImageView>
+                                <ImageView
+                                    android:id="@+id/iv_recommend_mix_for_user_cover_photo3"
+                                    android:layout_width="160dp"
+                                    android:layout_height="160dp"
+                                    android:src="@drawable/iv_cover_playlist_hyang"/>
+
+                                <ImageView
+                                    android:id="@+id/iv_recommend_mix_for_user_cover3"
+                                    android:layout_width="160dp"
+                                    android:layout_height="160dp"
+                                    android:src="@drawable/iv_frame_dailymix_green"/>
+
+                                <ImageView
+                                    android:id="@+id/iv_logo_icon_black3"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:src="@drawable/iv_logo_black"/>
+
+                                <TextView
+                                    android:id="@+id/tv_mix_name3"
+                                    style="@style/photo_text"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="left|bottom"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:text="데일리 믹스 3"/>
+
+                            </FrameLayout>
 
                             <TextView
-                                android:id="@+id/tv_recommend_mix_for_user_name3"
+                                android:id="@+id/tv_recommend_mix_for_user_artist_name3"
                                 style="@style/description_text"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
                                 android:layout_marginTop="16dp"
-                                android:text="NMIXX,iZONE,\n프로미스나인,조유리,Bi...">
-
-                            </TextView>
+                                android:text="Hyang, The 1975,\n 10cm 등"/>
 
                         </LinearLayout>
-
 
                     </LinearLayout>
 
@@ -795,15 +869,41 @@
                             android:layout_height="wrap_content"
                             android:orientation="vertical">
 
-                            <ImageView
-                                android:id="@+id/iv_user_mix_cover"
+                            <FrameLayout
+                                android:id="@+id/layout_user_mix_frame"
                                 android:layout_width="160dp"
                                 android:layout_height="160dp"
-                                android:layout_marginStart="16dp"
-                                android:background="@color/white"
-                                android:src="@drawable/iv_frame_user_mix">
+                                android:layout_marginStart="16dp">
 
-                            </ImageView>
+                                <ImageView
+                                    android:id="@+id/iv_user_mix_photo"
+                                    android:layout_width="160dp"
+                                    android:layout_height="160dp"
+                                    android:src="@drawable/iv_photo_artist_rihanna"/>
+
+                                <ImageView
+                                    android:id="@+id/iv_user_mix_cover"
+                                    android:layout_width="160dp"
+                                    android:layout_height="160dp"
+                                    android:src="@drawable/iv_frame_user_mix"/>
+
+                                <ImageView
+                                    android:id="@+id/iv_logo_icon_white"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:src="@drawable/iv_logo_white"/>
+
+                                <TextView
+                                    android:id="@+id/tv_user_mix_name"
+                                    style="@style/photo_text_white"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="left|bottom"
+                                    android:layout_marginStart="16dp"
+                                    android:layout_marginBottom="30dp"
+                                    android:text="R&amp;B 믹스"/>
+
+                            </FrameLayout>
 
                             <TextView
                                 android:id="@+id/tv_user_mix_artist_name"
@@ -812,11 +912,12 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
                                 android:layout_marginTop="16dp"
-                                android:text="NMIXX,iZONE,\n프로미스나인,조유리,Bi...">
+                                android:text="Rihanna, JUNNY, SZA 등">
 
                             </TextView>
 
                         </LinearLayout>
+
 
                         <LinearLayout
                             android:id="@+id/layout_user_mix_column2"
@@ -824,15 +925,41 @@
                             android:layout_height="wrap_content"
                             android:orientation="vertical">
 
-                            <ImageView
-                                android:id="@+id/iv_user_mix_cover2"
+                            <FrameLayout
+                                android:id="@+id/layout_user_mix_frame2"
                                 android:layout_width="160dp"
                                 android:layout_height="160dp"
-                                android:layout_marginStart="16dp"
-                                android:background="@color/white"
-                                android:src="@drawable/iv_frame_user_mix">
+                                android:layout_marginStart="16dp">
 
-                            </ImageView>
+                                <ImageView
+                                    android:id="@+id/iv_user_mix_photo2"
+                                    android:layout_width="160dp"
+                                    android:layout_height="160dp"
+                                    android:src="@drawable/iv_photo_artist_doja"/>
+
+                                <ImageView
+                                    android:id="@+id/iv_user_mix_cover2"
+                                    android:layout_width="160dp"
+                                    android:layout_height="160dp"
+                                    android:src="@drawable/iv_frame_user_mix"/>
+
+                                <ImageView
+                                    android:id="@+id/iv_logo_icon_white2"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:src="@drawable/iv_logo_white"/>
+
+                                <TextView
+                                    android:id="@+id/tv_user_mix_name2"
+                                    style="@style/photo_text_white"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="left|bottom"
+                                    android:layout_marginStart="16dp"
+                                    android:layout_marginBottom="30dp"
+                                    android:text="업비트 믹스"/>
+
+                            </FrameLayout>
 
                             <TextView
                                 android:id="@+id/tv_user_mix_artist_name2"
@@ -841,7 +968,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
                                 android:layout_marginTop="16dp"
-                                android:text="NMIXX,iZONE,\n프로미스나인,조유리,Bi...">
+                                android:text="Doja Cat, BORNS, Justin\nBeiber 등">
 
                             </TextView>
 
@@ -853,28 +980,55 @@
                             android:layout_height="wrap_content"
                             android:orientation="vertical">
 
-                            <ImageView
-                                android:id="@+id/iv_user_mix_cover3"
+                            <FrameLayout
+                                android:id="@+id/layout_user_mix_frame3"
                                 android:layout_width="160dp"
                                 android:layout_height="160dp"
-                                android:layout_marginStart="16dp"
-                                android:background="@color/white"
-                                android:src="@drawable/iv_frame_user_mix">
+                                android:layout_marginStart="16dp">
 
-                            </ImageView>
+                                <ImageView
+                                    android:id="@+id/iv_user_mix_photo3"
+                                    android:layout_width="160dp"
+                                    android:layout_height="160dp"
+                                    android:src="@drawable/iv_photo_artist_aespa"/>
+
+                                <ImageView
+                                    android:id="@+id/iv_user_mix_cover3"
+                                    android:layout_width="160dp"
+                                    android:layout_height="160dp"
+                                    android:src="@drawable/iv_frame_user_mix"/>
+
+                                <ImageView
+                                    android:id="@+id/iv_logo_icon_white3"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:src="@drawable/iv_logo_white"/>
+
+                                <TextView
+                                    android:id="@+id/tv_user_mix_name3"
+                                    style="@style/photo_text_white"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="left|bottom"
+                                    android:layout_marginStart="16dp"
+                                    android:layout_marginBottom="30dp"
+                                    android:text="K-pop 믹스"/>
+
+                            </FrameLayout>
 
                             <TextView
-                                android:id="@+id/tv_user_mix_name3"
+                                android:id="@+id/tv_user_mix_artist_name3"
                                 style="@style/description_text"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
                                 android:layout_marginTop="16dp"
-                                android:text="NMIXX,iZONE,\n프로미스나인,조유리,Bi...">
+                                android:text="Aespa, f(x), Le Sserafim\n등">
 
                             </TextView>
 
                         </LinearLayout>
+
 
 
                     </LinearLayout>
@@ -883,14 +1037,15 @@
 
                 <ImageView
                     android:id="@+id/iv_radio_artist_circle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
                     android:background="@drawable/button_shape_profile"
+                    android:src="@drawable/iv_cover_playlist_hyang"
+                    android:scaleType="fitCenter"
                     android:layout_marginTop="16dp"
                     android:layout_marginStart="16dp"
                     app:layout_constraintTop_toBottomOf="@id/scrollView_user_mix"
                     app:layout_constraintStart_toStartOf="parent">
-
                 </ImageView>
 
                 <TextView
@@ -922,7 +1077,8 @@
                     android:id="@+id/layout_radio"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    app:layout_constraintHeight_percent="0.2"
+                    app:layout_constraintHeight_percent="0.23"
+                    android:layout_marginTop="8dp"
                     app:layout_constraintTop_toBottomOf="@+id/iv_radio_artist_circle">
 
                     <ImageView
@@ -932,7 +1088,8 @@
                         android:layout_marginTop="16dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginEnd="16dp"
-                        android:background="@drawable/playlist_frame">
+                        android:src="@drawable/iv_cover_playlist_hyang"
+                        android:scaleType="centerCrop">
                     </ImageView>
 
                     <ImageView
@@ -941,8 +1098,7 @@
                         app:layout_constraintWidth_percent="0.22"
                         android:layout_height="0dp"
                         app:layout_constraintHeight_percent="0.18"
-                        android:background="@drawable/playlist_frame"
-                        android:src="@color/white"
+                        android:src="@drawable/iv_cover_recommend_hyang"
                         android:layout_marginTop="32dp"
                         android:layout_marginStart="32dp"
                         app:layout_constraintTop_toTopOf="parent"
@@ -955,7 +1111,7 @@
                         style="@style/title_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="밴드 Hyang\n라디오"
+                        android:text="Hyang\n라디오"
                         android:layout_marginStart="16dp"
                         app:layout_constraintTop_toTopOf="@id/iv_radio_mix_cover"
                         app:layout_constraintStart_toEndOf="@id/iv_radio_mix_cover">
