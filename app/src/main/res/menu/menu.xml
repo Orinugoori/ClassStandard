@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/iv_icon_nav_home_grey"
+        android:title="홈"/>
+
+    <item
+        android:id="@+id/search"
+        android:enabled="true"
+        android:icon="@drawable/iv_icon_nav_search_grey"
+        android:title="검색"/>
+
+    <item
+        android:id="@+id/library"
+        android:enabled="true"
+        android:icon="@drawable/iv_icon_nav_lib_grey"
+        android:title="내 라이브러리"/>
+
+</menu>

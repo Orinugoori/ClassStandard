@@ -6,5 +6,6 @@
     <color name="grey">#707070</color>
     <color name="green">#00B348</color>
     <color name="pink">#FF518C</color>
+    <color name="nav_back">#CC000000</color>
 
 </resources>
