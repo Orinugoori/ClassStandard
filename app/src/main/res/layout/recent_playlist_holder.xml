@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_recent_playlist"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <ImageView
+        android:id="@+id/recent_playlist_background"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/playlist_frame"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <ImageView
+        android:id="@+id/iv_playlist"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/playlist_frame"
+        android:src="@drawable/iv_cover_playlist_rihanna"
+        android:clipToOutline="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/tv_playlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/product_sans_black"
+        android:text="This Is\nRihanna"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@id/iv_playlist"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

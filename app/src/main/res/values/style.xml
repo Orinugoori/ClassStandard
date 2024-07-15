@@ -51,8 +51,6 @@
 
     <style name="custom_navigation_bar" parent="Widget.Design.BottomNavigationView">
         <item name="android:iconTint">#000000</item>
-
-
     </style>
 
 
