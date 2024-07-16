@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        supportFragmentManager.beginTransaction().add(R.id.fragment_container,Home()).commit()
+//        supportFragmentManager.beginTransaction().add(R.id.fragment_container,Home()).commit()
 
 
         val navigateBar = findViewById<BottomNavigationView>(R.id.bottom_navigation_bar)

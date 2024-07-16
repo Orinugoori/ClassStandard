@@ -13,13 +13,26 @@ import androidx.core.view.marginBottom
 import androidx.core.view.setMargins
 import androidx.recyclerview.widget.RecyclerView
 
+interface OnItemClick{
+    fun onClick(position: Int)
+}
+
 class HorizontalAdapter(private val item : MutableList<PlayList>) :RecyclerView.Adapter<HorizontalAdapter.Holder>() {
+
+    var itemClick : OnItemClick? = null
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HorizontalAdapter.Holder {
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.horizontal_holder,parent,false)
         return Holder(itemView)
     }
 
+
     override fun onBindViewHolder(holder: HorizontalAdapter.Holder, position: Int) {
+
+        holder.itemView.setOnClickListener {
+            itemClick?.onClick(position)
+        }
+
+
         //아티스트 사진
         holder.coverImage.setImageResource(item[position].cover)
 

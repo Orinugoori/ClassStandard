@@ -1,5 +1,6 @@
 package com.example.spotifyclonecoding
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -31,6 +32,7 @@ class Home : Fragment() {
 
         binding.ivRadioArtistCircle.clipToOutline = true
 
+
         //recycler view
         val recentPlayList = MyPlayListObject.myPlayList
         val adapterRecent = RecentPlayAdapter(recentPlayList)
@@ -58,6 +60,19 @@ class Home : Fragment() {
 
         binding.rvUserMix.adapter = adapterUserMix
         binding.rvUserMix.addItemDecoration(horizontalDecoration)
+
+
+        adapterRecommend.itemClick = object : OnItemClick{
+            override fun onClick(position: Int) {
+                val category = "RecommendStation"
+                val index = position
+                val detailInstance = Detail.newInstance(category, index)
+                val transaction = parentFragmentManager.beginTransaction()
+                transaction.replace(R.id.fragment_container, detailInstance)
+                transaction.addToBackStack(null)
+                transaction.commit()
+            }
+        }
 
         return binding.root
     }
