@@ -54,9 +54,7 @@ class SongAdapter(private val items: PlaySongList) :
             items.playList.size
         }
     }
-
 }
-
 
 
 class SongHolder(private val binding: SongHolderBinding) : RecyclerView.ViewHolder(binding.root) {
@@ -68,7 +66,6 @@ class SongHolder(private val binding: SongHolderBinding) : RecyclerView.ViewHold
             }
         }
     }
-
 
 
 class RecommendHolder(private val binding: RecommendHolderBinding) :

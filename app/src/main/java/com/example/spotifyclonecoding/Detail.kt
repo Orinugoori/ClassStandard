@@ -8,14 +8,11 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.spotifyclonecoding.databinding.FragmentDetailBinding
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
 
 class Detail : Fragment() {
-    // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: Int? = null
 
@@ -50,8 +47,6 @@ class Detail : Fragment() {
 
         val songListData = PlaySongList(MultiViewEnum.SONG, MyPlayListObject.recommendStation,songData,MyPlayListObject.mixForUser)
         val recommendData = PlaySongList(MultiViewEnum.RECOMMEND, MyPlayListObject.recommendStation,SongListObject.hyang,MyPlayListObject.mixForUser)
-
-
 
         binding.rvSongList.adapter = SongAdapter(songListData)
         binding.rvSongList.addItemDecoration(RecyclerDecoration(16,16,16,16))
